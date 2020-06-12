@@ -9,6 +9,6 @@ pipeline {
         bitbucketStatusNotify ( buildState: 'SUCESS' )
       }
     
-
+      }
   }
 }
