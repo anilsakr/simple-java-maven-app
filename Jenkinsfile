@@ -3,8 +3,10 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        echo 'HELLO BB'
+        echo 'HELLO Build Notify'
+        
       }
+      
     }
 
   }
