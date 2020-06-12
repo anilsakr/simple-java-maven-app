@@ -1,10 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('build') {
-      steps {
-        echo 'HELLO Build Notify'
-      }
+    stage('build') 
         bitbucketStatusNotify(
         buildState: 'INPROGRESS',
         buildKey: 'build',
@@ -28,7 +25,7 @@ pipeline {
           repoSlug: 'simple-java-maven-app' 
           )
       }
-    }
+    
 
   }
 }
