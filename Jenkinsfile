@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        echo 'Hello From Build Notify'
+        echo 'Hello From Build Notify..'
       }
     }
   }
